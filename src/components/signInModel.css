@@ -1,0 +1,225 @@
+.modelBackground{
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0,0,0,.32);
+    z-index: 2;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modelContainer{
+    width: 516px;
+  height: 700px;
+  scroll-behavior: smooth;
+  overflow: scroll;
+  background: #ffffff;
+  border-radius: 6px;
+  position: static;
+  padding:36px 48px 60px 48px;
+  box-shadow: 0 11px 15px -7px #0003, 0 24px 38px 3px #00000024, 0 9px 46px 8px #0000001f;
+  
+}
+/* @media screen and (max-width: 768px) {
+    .modelContainer{
+        width: 450px;
+      height: 500px;
+      
+      
+    }
+  } */
+.text1{
+    font-size: 1.8rem;
+    color: #E7590A;
+    line-height: 1.5rem;
+    font-weight: 700;
+}
+.Logo1{
+display: flex;
+align-items: center;
+gap: 0 3rem;
+justify-content: space-between;
+}
+.close{
+    display: flex;
+    align-items: center;
+}
+.contain{
+    display: flex;
+    align-items: center;
+    gap: 0 2rem;
+    padding-left: 9rem;
+}
+.inform{
+    margin-top: 1.5rem;
+    padding: 0.75rem 7rem;
+    background-color: rgb(252 234 171);
+    border-radius: 0.75rem;
+    text-align: center;
+}
+.para{
+    font-weight: 600;
+    font-size: .875rem;
+    line-height: 1.25rem;
+    color: rgb(30 16 12);
+}
+
+.google{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 0.75rem;
+    padding: 10px;
+   margin-top: 2.2rem;
+   cursor: pointer;
+    background: #ffffff;
+    border: 0.806492px solid #eff0f7;
+    box-shadow: 0 1.61298px 4.83895px #13124212;
+    border-radius: 37.0986px;
+}
+.img{
+    width: 1.5rem;
+}
+.text2{
+    color: rgb(107 114 128 );
+    font-size: 1rem;
+    
+}
+.line{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0 2rem;
+    margin-top: 1.8rem; 
+}
+.line1{
+    height: 1px;
+    width: 41%;
+    background: #0000001f;; 
+}
+/* .line2{
+    height: 1.5px;
+    width: 40%;
+    background: #0000001f;;  
+} */
+.or{
+    color: rgb(107 114 128);
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: normal;
+}
+
+.inputContainer{
+    display: flex;
+    flex-direction: column;
+ 
+   position: relative;
+}
+.inputLabel{
+    display: flex; 
+    margin-top: 1.5rem;
+}
+
+.label1{
+    margin-bottom: 1rem;
+    font-size: 14px;
+    line-height: 1.25rem;
+    font-weight: 600;
+    color: rgb(89 77 77 );
+}
+
+.input1{
+    border-radius: 0.75rem;
+    border-width: 1px;
+    padding: 10px 16px;
+    border-style: solid;
+    border-color: rgb(186 197 218 );
+    background-color: rgb(255 255 255 );
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(30 16 12 );
+    outline: none;
+}
+.img1{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 28%;
+    left: 94%;
+}
+
+.forgotDiv{
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: flex-end;
+
+}
+.forgot{
+    color: rgb(231 89 10 );
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.BtnContainer{
+margin-top: 1.5rem;
+border-radius: 0.75rem;
+}
+.signBtn{
+    width: 100%;
+    padding: 12px;  
+    color: rgb(255 255 255 );
+font-weight: 700;
+font-size: 16px;
+background-color: rgb(231 89 10 );
+border-radius: 0.75rem;
+border: none;
+cursor: pointer;
+
+}
+.signupContainer{
+    margin-top: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.para2{
+    color: rgb(88 104 135 );
+    font-size: .875rem;
+    line-height: 1.25rem;
+}
+.signup{
+    color: rgb(231 89 10 );
+    font-weight: 600;
+    font-size: .875rem;
+    line-height: 1.25rem;
+    cursor: pointer;
+}
+
+/* Sign up */
+
+.term{
+    margin-top: 1rem;
+padding: 12px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.term1{
+    color: rgb(231 89 10 );
+    font-size: 14px;
+    font-weight: 600;
+    padding-left: 5px;
+}
+.para3{
+    font-size: 14px;
+    font-weight: 600; 
+}
+
+.error{
+    color: red;
+    margin: 0.3rem 0 0.3rem 0.4rem;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+}

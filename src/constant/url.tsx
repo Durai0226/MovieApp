@@ -1,0 +1,1 @@
+export const  API_URL ='https://hoblist.com/api/movieList'

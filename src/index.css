@@ -1,0 +1,13 @@
+
+
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+ max-width: 1920px;
+ height: 100vh;
+ background-color: #ffffff;
+}
+
+

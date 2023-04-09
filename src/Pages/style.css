@@ -1,0 +1,59 @@
+.headerDiv{
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 2px 2px 4px #5868870d;
+    min-height: 4.5rem;
+    display: flex;
+    align-items: center;
+    position: fixed;
+}
+.Container{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0 3rem;
+    align-items: center;
+}
+.text{
+    font-size: 18px;
+    color: #E7590A;
+    line-height: 1.5rem;
+    font-weight: 700;
+}
+.Logo{
+display: flex;
+align-items: center;
+gap: 0 3rem;
+}
+.Btn-Container{
+
+    display: flex;
+    gap: 0 1.5rem;
+}
+.Btn1{
+color:#586887;
+padding: 11px 16px;
+height: auto;
+width: 7.5rem;
+cursor: pointer;
+background-color: #FFFFFF;
+border-radius: 5px;
+border: 1px solid rgb(88 104 135);
+font-size: 14px;
+font-weight: 700;
+}
+.Btn2{
+    font-size: 14px;
+    color:#FFFFFF;
+    padding: 12px 16px;
+    height: auto;
+    font-weight: 700;
+    cursor: pointer;
+    width: 7.5rem;
+    background-color:#E7590A ;
+    border-radius: 5px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
